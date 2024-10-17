@@ -1,0 +1,86 @@
+
+<style type="text/css">
+
+
+#menuitem {color: black; border: 0px solid #666666; text-align: center;   background: url("");
+}
+#menuitem:hover { background: url("images/background2.gif"); 
+}
+
+
+a:link { color: blue; text-decoration: none; }
+a:visited { color: orange; text-decoration: none; } 
+a:hover {  } 
+
+
+body {
+	background-color: white;
+	color: black;
+	margin:50px 0px; padding:0px;
+	text-align:center;
+
+}
+
+/* Table CSS */
+
+.Table
+    {
+        display: table;
+		border-spacing: 10px;
+		border-collapse: separate;
+		vertical-align: middle;
+		
+    }
+.Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+.Row
+    {
+    	vertical-align: middle;
+    	
+    
+        display: table-row;
+    }
+.MCol, .Col, .Cell
+    {
+        display: table-cell;
+        border: none;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+		vertical-align: middle;
+    }
+	
+.LCol {
+        display: table-cell;
+        border: none;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+		vertical-align: top;
+    }
+	
+/* LCol, MCol and RCol assume a three column table. Adjust width here */
+		
+.LCol {width: 200px; text-align: center;}	
+.MCol {width: 800px;}	
+.RCol {width: 300px;}	
+	
+	
+/* Container is a general space which is centre aligned */
+
+#indent {
+    text-indent: 50px;
+}
+
+#mainblock {
+			width: 1000px;
+			margin:2px auto;
+			text-align:center;
+		}
+#right {text-align: right;}
